@@ -26,33 +26,3 @@ div {
     font-weight: bold;
     box-shadow: 0 0 20px #6d6969
 }
-/* 
-.restart ::before,
-.restart ::after{
-    content: '';
-    position: abusolute;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #396165;
-}
-
-.restart ::before{
-    top: 0;
-    left: 0;
-    border-right: 0;
-    border-bottom: 0;
-}
-
-.restart ::after{
-    top: 0;
-    left: 0;
-    border-top: 0;
-    border-left: 0;
-}
-
-.restart :hover{
-   background-color: hsl(307, 33%, 66%);
-   color: black;
-    border-right: 0;
-    border-bottom: 0;
-} */
