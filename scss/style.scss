@@ -1,0 +1,42 @@
+$primary-color: rgb(93, 140, 147);
+$secondary-color: #396165;
+$shadow-color: #a7b4b2;
+$text-color: antiquewhite;
+$font-size: large;
+$font-weight: bold;
+$box-shadow: 0 0 20px #6d6969;
+
+.container {
+  text-align: center;
+  margin: 50px auto;
+  // Add more styles as needed
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.chess {
+  background-color: $primary-color;
+  display: block;
+  margin: 50px auto;
+  box-shadow: 15px 15px $shadow-color;
+  cursor: pointer;
+}
+
+div {
+  text-align: center;
+}
+
+.restart {
+  padding: 10px 20px;
+  background-color: $secondary-color;
+  border: 5px solid rgb(167, 169, 171);
+  border-radius: 5px;
+  cursor: pointer;
+  color: $text-color;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  box-shadow: $box-shadow;
+}
